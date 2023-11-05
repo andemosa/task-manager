@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&family=Staatliches&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.checkColor {
+  background: linear-gradient(
+    to right,
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  );
+}
+.no-line > span {
+  text-decoration: none !important;
+}
+
+.line {
+  text-decoration: line-through;
+}
